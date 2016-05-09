@@ -1,0 +1,75 @@
+/*		***	Navigation ***	*//*		***	Navigation ***	*//*		***	Navigation ***	*/
+#wrapper-nav{
+	width:100%;
+	z-index:1;
+	position:relative;
+	background-color: rgba(255, 255, 255, 0.9);
+	-webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+	display: table;
+}
+#iconLogo{
+	margin-top: 5px;
+	position:absolute;
+	display: none;
+}
+
+#mainnav{
+	float:right;
+}
+#mainnav > li{
+	float:left;
+	padding: 1.2em 1.5em 1em;
+	text-transform: uppercase;
+	line-height: 1.5em;
+}
+#mainnav > li:hover{
+	background-color: #DFE5E6
+}
+
+#mainnav .active{
+	background-color:#DFEEC8;
+}
+.submenu{
+	position: absolute;
+	min-width:1100px;
+	left:50%;     
+    margin-left:-550px;
+    padding-bottom:10px;	
+	top:59px;
+	display:none;
+	position: absolute;	
+	background-color: #DFE5E6;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+	z-index:0;
+	text-shadow:1px 1px 0px #F2F2F2;
+	line-height: 120%;
+}
+.submenu ul{
+	float:left;
+}
+.submenu li:first-child{
+	border-bottom:3px solid #394A59;
+	margin-bottom:20px;
+	padding-top:20px;
+	font-weight:bold;
+	text-shadow:none;
+	text-transform: uppercase;
+}
+.submenu li{
+	width:250px;
+	margin-left:20px;
+	text-transform: none;
+}
+
+.submenu li:not(:first-child) a:hover{
+	text-decoration: underline;
+}
+.submenu li:not(:first-child) a:hover:before{
+	content:url('../img/navdot_gr.png');
+	position:absolute;
+	margin-left:-13px;
+}

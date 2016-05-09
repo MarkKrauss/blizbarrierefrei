@@ -1,0 +1,72 @@
+/*		***	Footer ***		*//*		***	Footer ***		*//*		***	Footer ***		*/
+#wrapper-footer{
+	width:100%;
+	background-color: #4a5d66;	
+	color:#FFFFFF;
+	padding:20px 0;
+	display: table;
+}
+#wrapper-footer a{
+	color:#FFFFFF;
+}
+#wrapper-footer a:hover{
+	text-decoration:underline;
+}
+#footer > div{
+	float:left;
+}
+#footer div:nth-child(1){
+	width:400px;
+}
+#footer div:nth-child(2){
+	width:350px;
+}
+#footer h3{
+	text-transform: uppercase;
+	font-size:90%;
+	font-weight:strong;
+	margin-bottom: 10px;
+}
+#footer p, #footer a{
+	font-size:85%;
+}
+.sozial{
+	width:250px;
+}
+#qrcode{
+	width:99px;
+}
+#scroll_top{
+	height:165px;		/*Anpassen an footer höhe, piMalDaumen*/
+	position: relative;
+}
+#scroll_top button{
+	position: absolute;
+	border:0;
+	bottom: 0;
+	height:30px;
+	width:30px;
+	cursor: pointer;
+}
+#scroll_top img{
+    margin-top: -1px;
+}
+
+/*		***	SubFooter ***	*//*		***	SubFooter ***	*//*		***	SubFooter ***	*/
+#wrapper-subfooter{
+	width:100%;
+	background-color: #6b7982;
+	color:#FFFFFF;
+	font-size:80%;
+	padding: 5px 0px;
+	display: table;
+}
+#wrapper-subfooter a{
+	color:#FFFFFF;
+}
+#subfooter > div:first-child{
+	float:left;
+}
+#subfooter > div:last-child{
+	float:right;
+}

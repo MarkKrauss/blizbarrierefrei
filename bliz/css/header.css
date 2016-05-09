@@ -1,0 +1,117 @@
+*{padding:0;margin:0;border:0; font-family: "Arial";font-size:100%;}
+body,html{background-color: #f2f4f5;width:100%;}
+#mininavi, a{text-decoration: none;color:#3c4d5c;}
+ul{list-style-type: none;}
+
+#header,#navigation,#footer,#subfooter,#content,.contentWidth,#mainfoot{
+	max-width:1100px;
+	margin:0 auto;
+}
+.hidden{display:none;}
+
+
+/*		***	Header ***		*//*		***	Header ***		*//*		***	Header ***		*/
+#wrapper-header{
+	min-width: 0px;
+    width: 100%;
+	background-color: #ffffff;
+	z-index: 2;
+	position: relative;
+}
+#skiplinks li{
+	width:100%;
+	z-index:100;
+	padding: 13px 0;
+	position: absolute;
+	background-color:#333333;	
+	text-align: center;	
+	top:-43px;	
+}
+#skiplinks li a{
+	color:#ffffff !important;
+}
+
+#wrapper-header-fkt{
+	float:right;
+	margin-top:10px;
+}
+#wrapper-header-fkt div{
+	float:left;
+	height:30px;
+	font-size:90%;
+}
+#wrapper-header-fkt input{
+	vertical-align: top;
+}
+#logo{
+	width:433px;
+	height:71px;
+	padding-top:20px;
+}
+#logo a:first-child img{
+	height:80px;
+	padding-right:10px;
+}
+#logo a:last-child img{
+	height: auto;
+	margin-bottom: 21px;
+}
+.iconearth{
+	float:left;
+	margin-top:7px;
+}
+#iconsearch{
+	width:20px;
+	height:28px;
+	background-image: url("../img/search.png");
+	background-color:#dfe5e6;
+	margin-left:-4px;
+	background-repeat: no-repeat;
+	background-position: 0px 5px;	
+}
+#language{
+	padding: 7px 20px 5px 2px;
+	cursor: pointer;
+}
+#language input{
+	background-color:#ffffff;
+	height:18px;
+}
+.searchinput{
+	height:28px;
+	padding-left:3px;
+	font-size: 105%;
+	background-color: #dfe5e6;
+}
+#info button{
+	background-color:#ffffff;
+}
+#info img{
+	margin-top: 5px;
+    margin-left: 5px;
+}
+#infobox{
+	position:absolute;
+	width:400px;
+	height: auto !important;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	z-index:100;
+	background-color: #394A59;
+	color:#FFFFFF;
+	text-align:center;
+	padding:10px;
+	font-size: 100% !important;
+}
+#infobox p, #infobox h2{
+	text-align:left;
+}
+#infobox #infoclose{
+	background-color: #FF0000;
+    padding: 5px;
+    cursor: pointer;
+    color:#ffffff;
+}
